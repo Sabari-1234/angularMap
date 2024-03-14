@@ -1,0 +1,7 @@
+<google-map [options]="mapOptions" width="100vw" height="100vh">
+  <map-marker
+    *ngFor="let spot of spots"
+    [position]="{ lat: spot.lat, lng: spot.lng }"
+    [options]="markerOptions"
+  ></map-marker>
+</google-map>
