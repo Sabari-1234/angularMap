@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class MapComponent {
   myLatLng = { lat: 48.829677, lng: 2.239609 }; // Map Options
   mapOptions: google.maps.MapOptions = {
-    zoom: 1000,
+    zoom: 10,
   };
 
   markerOptions: google.maps.MarkerOptions = {};
